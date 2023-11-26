@@ -1,0 +1,55 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.main {
+    flex: 4;
+}
+
+header {
+    box-sizing: border-box;
+    background-color: navajowhite;
+    padding: 10px;
+    height: 10vh;
+}
+
+article {
+    background-color: white;
+    flex: 4;
+    padding: 10px;
+}
+
+.isi {
+    display: flex;
+    flex: 1;
+    height: 80vh;
+}
+
+aside {
+    background-color:aqua;
+    flex: 1;
+    padding: 10px;
+}
+
+nav {
+    background-color:hotpink;
+    flex: 1;
+    padding: 20px;
+}
+footer {
+    box-sizing: border-box;
+    background-color: navajowhite;
+    padding: 10px;
+    height: 10vh;
+}
